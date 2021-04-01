@@ -1,4 +1,4 @@
-package de.nilsgamer.broadcaster;
+
 
 import de.nilsgamer.broadcaster.util.Broadcaster;
 import de.nilsgamer.broadcaster.util.info;
@@ -14,7 +14,6 @@ public final class Main extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("");
         Bukkit.getConsoleSender().sendMessage("§6[BroadCaster] §cPlugin aktiviert");
         Bukkit.getConsoleSender().sendMessage("");
-        getCommand("info").setExecutor(new info());
         new Broadcaster(this).startBroadcast();
 
     }

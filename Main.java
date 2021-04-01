@@ -1,6 +1,5 @@
 
 
-import de.nilsgamer.broadcaster.util.Broadcaster;
 import de.nilsgamer.broadcaster.util.info;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
